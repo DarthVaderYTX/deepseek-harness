@@ -1,0 +1,3 @@
+- insert:
+    - id: simple-demo
+      name: './src/index.ts'
