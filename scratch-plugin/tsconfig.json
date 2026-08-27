@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib/types",
+    "noEmit": true
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../vendor/cordis" },
+    { "path": "../packages/core/tools" },
+    { "path": "../packages/core/system-prompt" }
+  ]
+}
